@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/recherche/page.js", "pages/page.js", "app/models/user.js", "app/page.jsx", "app/Login/page.js", "pages/api/table/index.js", "react-hooks-jwt-auth/src/components/Login.js"],
   "exclude": ["node_modules"]
 }

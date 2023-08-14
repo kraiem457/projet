@@ -1,0 +1,251 @@
+/*#searchbox {
+  background: #e7e7e7;
+  border: 89px solid #e8e8e8;
+  padding: 481px 290px;
+  /* width: 250px; 
+}
+
+  input:focus::-webkit-input-placeholder {
+  color: transparent;
+  }
+  
+  input:focus:-moz-placeholder {
+  color: transparent;
+  }
+  
+  input:focus::-moz-placeholder {
+  color: transparent;
+  }
+  
+  #searchbox input {
+  outline: none;
+  }
+  #searchbox input[type= "text"] {
+    background: url(http://2.bp.blogspot.com/-xpzxYc77ack/VDpdOE5tzMI/AAAAAAAAAeQ/TyXhIfEIUy4/s1600/search-dark.png) no-repeat 8px 9px #fff;
+    border-width: 1px;
+    position: relative;
+    top: -363px;
+    left: -85px;
+    border-style: solid;
+    border-color: #fff;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 638px;
+    padding: 8px 15px 8px 30px;
+    height: 37px;
+}
+
+    
+ #top{
+  top: -580px;
+  left: -835px;
+ }
+
+  #button-submit:hover {
+  background:#979797ab;
+  }
+  
+  #button-submit:active {
+  background: #5b5d60;
+  outline: none;
+  }
+  
+  #button-submit::-moz-focus-inner {
+  border: 0;
+  }
+  #button-submit {
+    background: #696969;
+    border-width: 0px;
+    padding: 11px 12px;
+    width: 23%;
+    position: relative;
+    top: -400px;
+    left: 560px;
+    right: 164px;
+    cursor: pointer;
+    font: bold 12px Arial, Helvetica;
+    color: #fff;
+    height: 37px;
+    text-shadow: 0 1px 0 #5b4848;
+}
+.p1{
+  position: relative;
+  left: 5px;
+  top: -351px;
+}
+
+ img{
+  background: #eaeaed;
+  border: 1px solid #9799a7;
+  float: right;
+  padding: 11px 12px;
+  margin: 8px 0 0 20px;
+  position: relative;
+  top: -602px;
+  left: -847px;
+  width: 121px;
+  height: -1px;
+}
+.container {
+  height: 100%;
+  width: 966px;
+  padding: 1.5rem 0;
+  padding: 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  box-sizing: border-box;
+  position: relative;
+  top: -400px;
+  left: -174px;
+}
+.form-select {
+  --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  top: -9035px;
+  left: 633px;
+  position: relative;
+  width: 204px;
+}
+
+.table > :not(caption) > * > * {
+  padding: -25.5rem 0.5rem;
+  color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
+  background-color: #fff;
+  border-bottom-width: var(--bs-border-width);
+  box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+  width: -30px;
+  font-size: small;
+}
+.table-active {
+  --bs-table-color-state: var(--bs-table-active-color);
+  --bs-table-bg-state: rgb(255 255 255 / 10%);
+}
+.table {
+  --bs-table-color-type: initial;
+  --bs-table-bg-type: initial:
+  --bs-table-color-state: initial;
+  --bs-table-bg-state: initial;
+  --bs-table-color: var(--bs-body-color);
+  --bs-table-bg: var(--bs-body-bg);
+  --bs-table-border-color: var(--bs-border-color);
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: var(--bs-body-color);
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  top: -392px;
+
+  left: -169px;
+  top: -395px;
+  left: -111px;
+  left: -158px;
+  left: -230px;
+  position: relative;
+  margin-bottom: 210cm;
+  vertical-align: top;
+  border-color: var(--bs-table-border-color);
+  width: 1070px;
+}
+
+.cellule {
+  background-color: #404348;
+}
+.pagination {
+  --bs-pagination-padding-x: 0.75rem;
+  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-font-size: 1rem;
+  --bs-pagination-color: #404348;
+  --bs-pagination-bg: var(--bs-body-bg);
+  --bs-pagination-border-width: var(--bs-border-width);
+  --bs-pagination-border-color: var(--bs-border-color);
+  --bs-pagination-border-radius: var(--bs-border-radius);
+  --bs-pagination-hover-color: #67696c;
+  --bs-pagination-hover-bg: var(--bs-tertiary-bg);
+  --bs-pagination-hover-border-color: var(--bs-border-color);
+  --bs-pagination-focus-color: #616469;
+  --bs-pagination-focus-bg: var(--bs-secondary-bg);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  --bs-pagination-active-color: #fff;
+  --bs-pagination-active-bg: #4f5359;
+  --bs-pagination-active-border-color: #16181a;
+  --bs-pagination-disabled-color: var(--bs-secondary-color);
+  --bs-pagination-disabled-bg: var(--bs-secondary-bg);
+  --bs-pagination-disabled-border-color: #000000;
+  display: flex;
+  padding-left: 0;
+  position: relative;
+  top: -8275px;
+  left: 674px;
+  list-style: none;
+
+}*/
+
+/* re.css */
+/* Assurez-vous d'ajuster les styles selon vos besoins */
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.p1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.results {
+  text-align: left;
+}
+
+.result-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.result-item p {
+  margin: 5px 0;
+}
+
+/* Ajoutez vos propres styles pour la navigation et le select */
+
+/* Bootstrap styles */
+/* Assurez-vous que les liens vers les fichiers Bootstrap sont corrects */
